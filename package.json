@@ -1,0 +1,41 @@
+{
+  "name": "paypay-liff-hands-on",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lambda": "netlify-lambda serve src/lambda"
+  },
+  "dependencies": {
+    "@line/liff": "^2.5.0",
+    "@paypayopa/paypayopa-sdk-node": "^0.8.0",
+    "crypto-js": "^4.0.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "lossless-json": "^1.0.4",
+    "memory-cache": "^0.2.0",
+    "moment": "^2.29.1",
+    "netlify-lambda": "^2.0.1",
+    "query-string": "^6.13.6",
+    "request": "^2.88.2",
+    "uuid": "^8.3.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuetify": "^2.2.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "sass": "^1.19.0",
+    "sass-loader": "^8.0.0",
+    "vue-cli-plugin-vuetify": "~2.0.7",
+    "vue-template-compiler": "^2.6.11",
+    "vuetify-loader": "^1.3.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
